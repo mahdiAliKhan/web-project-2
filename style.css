@@ -1,0 +1,245 @@
+@font-face {
+    font-family: madefor;
+    src: url(Wix_Madefor_Text/WixMadeforText-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: madefor;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    color: white;
+    background-color: black;
+}
+.nav{
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    color: white;
+    font-size:40px ;
+}
+.nav .right{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    transition: 0.5s;
+}
+.right a:hover{
+    color: blueviolet;
+}
+.right button{
+    padding: 12px 30px;
+    border: solid white 1px;
+    background: #000;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+}
+.right button:hover{
+    color:  rgb(123, 121, 121);
+    border-color: rgb(123, 121, 121);
+    cursor: pointer;
+}
+.page1{
+    min-height: 150vh;
+    width: 100%;
+    position: relative;
+}
+.page1 h1{
+    font-size: 8vw;
+    font-weight: 500;
+}
+.page1 h3{
+    margin-top: 10px;
+    font-size: 2vw;
+    font-weight: 100;
+    color: white;
+}
+.page1 button{
+    margin-top: 20px;
+    padding: 12px 30px;
+    border:none ;
+    background: blueviolet;
+    color: white;
+    font-size: large;
+    border-radius: 15px;
+}
+.page1 button:hover{
+    cursor: pointer;
+    background-color: rgb(99, 32, 161);
+}
+.vi-deo video{
+    position: absolute;
+    width: 50vw;
+    right: 100px;
+    top: 300px;
+}
+.page2{
+    height: 120vh;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+}
+.imagecontainer{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background:red; */
+}
+.about-webinar{
+    height: 40%;
+    width: 50%;
+    /* background-color: blue; */
+    padding: 0 80px;
+}
+.about-webinar h3{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.about-webinar h6{
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: 300;
+}
+.about-webinar p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.img1 img{
+    left: 90px;
+    top: -150px;
+    width: 25vw;
+    position: absolute;
+
+}
+.img2 img{
+    width: 20vw;
+    position: absolute;
+    top:200px ;
+    right: 50px;
+    z-index: 20;
+}
+.img3 img{
+    width: 20vw;
+    position: absolute;
+    top: 500px;
+    left: 80px;
+    z-index: 30;
+}
+.page3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh;
+    /* background: red; */
+    border-bottom: 20px;
+    border-bottom: solid 2px white ;
+}
+.box{
+    width: 80%;
+    height: 50vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.imgbox1{
+    background-image: linear-gradient(0deg, 
+    rgba(170, 66, 245, 0.806), 
+    rgba(132, 53, 193, 0.184)),  url('speaker1.webp');
+    background-size: cover;
+    width: 20vw;
+    height: 100%;
+    /* background: cyan; */
+}
+.imgbox2{
+    background-image: linear-gradient(0deg, 
+    rgba(170, 66, 245, 0.806), 
+    rgba(132, 53, 193, 0.184)),  url('speaker2.webp');
+    background-size: cover;
+    width: 20vw;
+    height: 100%;
+    /* background: cyan; */
+}
+.imgbox3{
+    background-image: linear-gradient(0deg, 
+    rgba(170, 66, 245, 0.806), 
+    rgba(132, 53, 193, 0.184)),  url('speaker3.webp');
+    background-size: cover;
+    width: 20vw;
+    height: 100%;
+    /* background: cyan; */
+}
+
+.page4{
+    height: 60vh;
+    width: 100%;
+    margin-top: 200px;
+}
+.page4 h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 100px;
+}
+.page5{
+    background-image: linear-gradient(rgba(170, 66, 245, 0.806), 
+    rgba(132, 53, 193, 0.184)),url(bg-image.webp);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+.page5 .quote{
+    /* position: absolute; */
+    color:black;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+.login{
+    font-size: 40px;
+    color: #000;
+}
+.login h2{
+    font-weight: 500;
+}
+.login h4{
+    font-weight: 200;
+}
+.login input{
+    font-size: large;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px black;
+}
+.login button{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 12px 30px;
+    border:none ;
+    background: rgb(89, 33, 201);
+    color: white;
+    font-size: large;
+    border-radius: 15px;
+}
